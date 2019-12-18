@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/buttoncollection/static/css/main.e0fae47d.chunk.css",
-    "main.js": "/buttoncollection/static/js/main.b4041145.chunk.js",
-    "main.js.map": "/buttoncollection/static/js/main.b4041145.chunk.js.map",
+    "main.css": "/buttoncollection/static/css/main.9ba19e56.chunk.css",
+    "main.js": "/buttoncollection/static/js/main.e3a9b721.chunk.js",
+    "main.js.map": "/buttoncollection/static/js/main.e3a9b721.chunk.js.map",
     "runtime-main.js": "/buttoncollection/static/js/runtime-main.0c51c289.js",
     "runtime-main.js.map": "/buttoncollection/static/js/runtime-main.0c51c289.js.map",
     "static/js/2.a1972bf8.chunk.js": "/buttoncollection/static/js/2.a1972bf8.chunk.js",
     "static/js/2.a1972bf8.chunk.js.map": "/buttoncollection/static/js/2.a1972bf8.chunk.js.map",
     "index.html": "/buttoncollection/index.html",
-    "precache-manifest.1ea8e5735fef493122bde1326789a9d1.js": "/buttoncollection/precache-manifest.1ea8e5735fef493122bde1326789a9d1.js",
+    "precache-manifest.001247a381a50b81b864bcf47bd4f971.js": "/buttoncollection/precache-manifest.001247a381a50b81b864bcf47bd4f971.js",
     "service-worker.js": "/buttoncollection/service-worker.js",
-    "static/css/main.e0fae47d.chunk.css.map": "/buttoncollection/static/css/main.e0fae47d.chunk.css.map",
+    "static/css/main.9ba19e56.chunk.css.map": "/buttoncollection/static/css/main.9ba19e56.chunk.css.map",
     "static/js/2.a1972bf8.chunk.js.LICENSE": "/buttoncollection/static/js/2.a1972bf8.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.0c51c289.js",
     "static/js/2.a1972bf8.chunk.js",
-    "static/css/main.e0fae47d.chunk.css",
-    "static/js/main.b4041145.chunk.js"
+    "static/css/main.9ba19e56.chunk.css",
+    "static/js/main.e3a9b721.chunk.js"
   ]
 }

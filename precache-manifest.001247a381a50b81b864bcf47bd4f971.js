@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa90d26432854a6b1298956a75cd3256",
+    "revision": "c3a87690a77d2f09e82ea3e1a8d219bd",
     "url": "/buttoncollection/index.html"
   },
   {
-    "revision": "6fcb087fe7e4a99f64b5",
-    "url": "/buttoncollection/static/css/main.e0fae47d.chunk.css"
+    "revision": "92d87a7a4a8f55c6e70f",
+    "url": "/buttoncollection/static/css/main.9ba19e56.chunk.css"
   },
   {
     "revision": "ba1968f5cb276494cf78",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/buttoncollection/static/js/2.a1972bf8.chunk.js.LICENSE"
   },
   {
-    "revision": "6fcb087fe7e4a99f64b5",
-    "url": "/buttoncollection/static/js/main.b4041145.chunk.js"
+    "revision": "92d87a7a4a8f55c6e70f",
+    "url": "/buttoncollection/static/js/main.e3a9b721.chunk.js"
   },
   {
     "revision": "3fccf71d9823bb54a5f4",
