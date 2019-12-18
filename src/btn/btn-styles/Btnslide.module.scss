@@ -1,0 +1,28 @@
+:root {
+    --color:#00aed1;
+  }
+  .btn{
+    position: relative;
+  padding: 0.375rem 0.75rem;
+  margin: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--color);
+  text-decoration: none;
+  border: 1px solid var(--color);
+  border-radius: 3px;
+  outline: transparent;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  transition: 0.50s;
+  
+}
+.btn:hover{
+ 
+    background: transparent;
+    box-shadow: inset 4em 0 0 0 var(--color);
+    color: wheat;
+
+}

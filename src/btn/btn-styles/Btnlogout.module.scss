@@ -1,0 +1,44 @@
+:root {
+    --color:#00aed1;
+  }
+  .btn{
+    position: relative;
+  padding: 0.375rem 0.75rem;
+  margin: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: wheat;
+  text-decoration: none;
+  border: 1px solid var(--color);
+  background:var(--color);
+  border-radius: 3px;
+  outline: transparent;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  transition: 0.250s;
+
+}
+.i {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: translate(-16%, 400%);
+  transition: 0.2s;
+}
+
+.span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.i:hover{
+  transform: translate(-16%, 42%);
+}
+
+.span:hover {
+  transform: translateY(-400%);
+}

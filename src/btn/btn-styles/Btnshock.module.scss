@@ -1,0 +1,58 @@
+:root {
+    --color:#00aed1;
+  }
+
+  .btn{
+    position: relative;
+  padding: 0.375rem 0.75rem;
+  margin: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: wheat;
+  text-decoration: none;
+  background: var(--color);
+  border: 1px solid var(--color);
+  border-radius: 3px;
+  outline: transparent;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  transition: 0.25s;
+  &:hover {
+    background: transparent;
+  }
+  &::before,
+  &::after {
+    position: absolute;
+    content: "";
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: inherit;
+    border-radius: inherit;
+    transition: 0.3s;
+  }
+  &::before {
+    z-index: -1;
+    background: var(--color);
+  }
+  &::after {
+    z-index: -2;
+    background: transparent;
+    border-color: var(--color);
+    transform: scale(0.5);
+  } &:hover {
+    color: var(--color);
+
+    &::before {
+      opacity: 0;
+      transform: scale(1.2);
+    }
+
+    &::after {
+      transform: scale(1);
+    }
+  }
+}

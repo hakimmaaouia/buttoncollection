@@ -1,0 +1,53 @@
+:root {
+    --color:#00aed1;
+  }
+  .btn{
+    position: relative;
+  padding: 0.375rem 0.75rem;
+  margin: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--color);
+  text-decoration: none;
+  border: 3px solid var(--color);
+  outline: transparent;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  transition: 0.25s;
+    border-radius: 0;
+    overflow: visible;
+    &::before,
+    &::after {
+      position: absolute;
+      content: "";
+      width: 15px;
+      height: 4px;
+      background: #222;
+      transform: skewX(60deg);
+      transition: 0.4s linear;
+    }
+
+    &::before {
+      top: -3px;
+      left: 10%;
+    }
+
+    &::after {
+      bottom: -3px;
+      right: 10%;
+    }
+    &:hover {
+      color: var(--color);
+      background: transparent;
+
+      &::before {
+        transform: translateX(255%) skewX(60deg);
+      }
+
+      &::after {
+        transform: translateX(-255%) skewX(60deg);
+      }
+    }
+}
+
