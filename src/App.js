@@ -38,7 +38,7 @@ return(
   <Btnopen color={count}  text ="Open"/>
   <Btnflipdown color={count}  text ="Flip" />
   <Btnslide color={count}  text ="Slide" />
-  <Btnmarquee color={count}  text ="marquee" />
+  <Btnmarquee color={count}  text ="passe" />
   <Btnclose color={count}  text ="close" />
   <Btncart color={count}  text ="cart" />
   <Btnlogout color={count}  text ="logout" />
